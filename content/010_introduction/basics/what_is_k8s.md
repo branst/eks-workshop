@@ -1,5 +1,5 @@
 ---
-title: "What is Kubernetes"
+title: "¿Qué es Kubernetes?"
 date: 2018-10-03T10:14:46-07:00
 draft: false
 weight: 30
@@ -7,8 +7,8 @@ weight: 30
 
 ![K8s summary image](/images/introduction/what_is_k8s_new.png)
 
-* Built on over a decade of experience and best practices
-* Utilizes declarative configuration and automation
-* Draws upon a large ecosystem of tools, services, support
+* Basado en más de una década de experiencia y mejores prácticas.
+* Utiliza configuración declarativa y automatización
+* Se basa en un gran ecosistema de herramientas, servicios, soporte
 
-More information on what Kubernetes is all about can be found on the [official Kubernetes website](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/). 
+Más información acerca de que es Kubernetes y que se puede hacer con el encontrarán en el  [sitio oficial de Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/). 

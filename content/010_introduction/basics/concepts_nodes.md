@@ -1,18 +1,18 @@
 ---
-title: "Kubernetes Nodes"
+title: "Nodos de Kubernetes"
 date: 2018-10-03T10:15:55-07:00
 draft: false
 weight: 40
 ---
 
-The machines that make up a Kubernetes cluster are called **nodes**.
+Las máquinas que forman un clúster de Kubernetes se llaman **nodos**.
 
-Nodes in a Kubernetes cluster may be physical, or virtual.  
+Los nodos en un cluster de Kubernetes pueden ser físicos or virtuales.  
 
-There are two types of nodes:
+Hay dos clases de nodos:
 
-* A Control-plane-node type, which makes up the [Control Plane](../../architecture/architecture_control), acts as the “brains” of the cluster.
+* Una clase Control-plane-node, que conforman el [Control Plane](../../architecture/architecture_control), actuan como el cerebro del cluster.
 
-* A Worker-node type, which makes up the [Data Plane](../../architecture/architecture_worker), runs the actual container images (via pods).
+* Una clase Worker-node type, que conforman el [Data Plane](../../architecture/architecture_worker), son los que corren los contenedores (a través de pods).
 
-We’ll dive deeper into how nodes interact with each other later in the presentation.
+Vamos a profundizar en como los nodos interactuan entre ellos luego en el workshop.

@@ -1,34 +1,26 @@
 ---
-title: "Introduction"
+title: "Introducción"
 weight: 10
 chapter: true
 draft: false
 pre: '<i class="fa fa-film" aria-hidden="true"></i> '
 tags:
-  - beginner
-  - kubeflow
-  - appmesh
-  - CON203
-  - CON205
-  - CON206
+  - principiante
 ---
 
-# Introduction to Kubernetes
+# Introducción a Kubernetes
 
-{{< youtube -zmUxsrYw2I >}}
-
-A walkthrough of basic Kubernetes concepts.
 
 ![Title Image](/images/introduction/eks-product-page.png)
 
-Welcome to the Amazon EKS Workshop!
+Bienvenido al Amazon EKS Workshop!
 
-The intent of this workshop is to educate users about the features of Amazon EKS.
+El objetivo de este workshop es introducir las características y funcionalidades de Amazon EKS.
 
-Background in EKS, Kubernetes, Docker, and container workflows are not required, but they are recommended.
+Conocimiento previo en EKS, Kubernetes, Docker y containers no son requeridos, pero si recomendados.
 
-This chapter will introduce you to the basic workings of Kubernetes, laying the foundation for the hands-on portion of the workshop.
+Este capítulo introduce los conceptos básicos de Kubernetes, sentando las bases para la parte práctica del workshop.
 
-Specifically, we will walk you through the following topics:
+Especificamente, vamos a revisar los siguientes tópicos:
 
 {{% children showhidden="false" %}}
