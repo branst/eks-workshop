@@ -1,5 +1,5 @@
 ---
-title: "Clone the Service Repos"
+title: "Clonar repositorios"
 chapter: false
 weight: 23
 ---

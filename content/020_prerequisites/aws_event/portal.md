@@ -4,22 +4,22 @@ chapter: false
 weight: 20
 ---
 
-### Login to AWS Workshop Portal
+### Ingresar a AWS Workshop Portal
 
-This workshop creates an AWS account and a Cloud9 environment. You will need the **Participant Hash** provided upon entry, and your email address to track your unique session.
+Este workshop crea una cuenta de AWS y un ambiente de Cloud9. Necesitarás una clave **Hash de Participante** provista al comienzo y tu dirección de correo.
 
-Connect to the portal by clicking the button or browsing to [https://dashboard.eventengine.run/](https://dashboard.eventengine.run/). The following screen shows up.
+Ingresar al portal a través del siguiente vínculo [https://dashboard.eventengine.run/](https://dashboard.eventengine.run/). A continuación, verás la siguiente pantalla 
 
 ![Event Engine](/images/event-engine-initial-screen.png)
 
-Enter the provided hash in the text box. The button on the bottom right corner changes to **Accept Terms & Login**. Click on that button to continue.
+Ingresar la clave hash provista en el cuadro de texto. El botón de la esquina inferior derecha cambia a **Accept Terms & Login**. Clickear el botón para continuar.
 
 ![Event Engine Dashboard](/images/event-engine-dashboard.png)
 
-Click on **AWS Console** on dashboard.
+Hacer click en **AWS Console** en el dashboard.
 
 ![Event Engine AWS Console](/images/event-engine-aws-console.png)
 
-Take the defaults and click on **Open AWS Console**. This will open AWS Console in a new browser tab.
+Dejar los valores por defecto y hacer click en **Open AWS Console**. Esto abrirá la Consola de AWS en una pestaña nueva del navegador.
 
-Once you have completed the step above, you can head straight to [**Create a Workspace**](/020_prerequisites/workspace/)
+Una vez completado lo anterior, puedes dirigirte directamente a [**Crear un Workspace**](/020_prerequisites/workspace/)

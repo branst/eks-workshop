@@ -1,19 +1,18 @@
 ---
-title: "Install Kubernetes Tools"
+title: "Instalar las herramientas de Kubernetes"
 chapter: false
 weight: 15
 ---
 
-Amazon EKS clusters require kubectl and kubelet binaries and the aws-cli or aws-iam-authenticator
-binary to allow IAM authentication for your Kubernetes cluster.
+Los clusters de Amazon EKS requieren kubectl, los binarios de kubelet y la aws-cli o el binario de aws-iam-authenticator
+para permitir la autenticación de IAM para tu cluster de Kubernetes.
 
 {{% notice tip %}}
-In this workshop we will give you the commands to download the Linux
-binaries. If you are running Mac OSX / Windows, please [see the official EKS docs
-for the download links.](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html)
+En este workshop vamos a dar los comandos para descargar los binarios de Linux. Si estás ejecutando Mac OSX / Windows, [ver la documentación oficial de EKS para los links de descarga
+.](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html)
 {{% /notice %}}
 
-#### Install kubectl
+#### Instalar kubectl
 
 ```bash
 sudo curl --silent --location -o /usr/local/bin/kubectl \
@@ -22,21 +21,21 @@ sudo curl --silent --location -o /usr/local/bin/kubectl \
 sudo chmod +x /usr/local/bin/kubectl
 ```
 
-#### Update awscli
+#### Actualizar la awscli
 
-Upgrade AWS CLI according to guidance in [AWS documentation](https://docs.aws.amazon.com/cli/latest/userguide/install-linux.html).
+Actualizar la AWS CLI de acuerdo a lo indicado en la [documentación de AWS](https://docs.aws.amazon.com/cli/latest/userguide/install-linux.html).
 
 ```bash
 sudo pip install --upgrade awscli && hash -r
 ```
 
-#### Install jq, envsubst (from GNU gettext utilities) and bash-completion
+#### Instalar jq, envsubst (de las utilidades gettext de GNU) y  and bash-completion
 
 ```bash
 sudo yum -y install jq gettext bash-completion moreutils
 ```
 
-#### Install yq for yaml processing
+#### Instalar yq para el procesamiento de yaml 
 
 ```bash
 echo 'yq() {
@@ -44,7 +43,7 @@ echo 'yq() {
 }' | tee -a ~/.bashrc && source ~/.bashrc
 ```
 
-#### Verify the binaries are in the path and executable
+#### Verificar que los binarios se encuentran en el path correspondiente y son ejecutables
 
 ```bash
 for command in kubectl jq envsubst aws
@@ -53,7 +52,7 @@ for command in kubectl jq envsubst aws
   done
 ```
 
-#### Enable kubectl bash_completion
+#### Habilitar kubectl bash_completion
 
 ```bash
 kubectl completion bash >>  ~/.bash_completion
@@ -61,7 +60,7 @@ kubectl completion bash >>  ~/.bash_completion
 . ~/.bash_completion
 ```
 
-#### set the AWS ALB Ingress Controller version
+#### configurar la versión del Ingress Controller del AWS ALB
 
 ```bash
 echo 'export ALB_INGRESS_VERSION="v1.1.8"' >>  ~/.bash_profile

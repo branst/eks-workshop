@@ -1,13 +1,11 @@
 ---
-title: "Create a Workspace"
+title: "Crear un Workspace"
 chapter: false
 weight: 14
 ---
 
 {{% notice warning %}}
-The Cloud9 workspace should be built by an IAM user with Administrator privileges,
-not the root account user. Please ensure you are logged in as an IAM user, not the root
-account user.
+El workspace de Cloud9 debe ser creado por un usuario IAM con privilegios de Administrador, no por el usuario con acceso root a la cuenta. Por favor, asegurarse de haber ingresado como un usuario IAM y no el usuario root.
 {{% /notice %}}
 
 <!---
@@ -19,12 +17,11 @@ and this message will be removed.
 -->
 
 {{% notice tip %}}
-Ad blockers, javascript disablers, and tracking blockers should be disabled for
-the cloud9 domain, or connecting to the workspace might be impacted.
-Cloud9 requires third-party-cookies. You can whitelist the [specific domains]( https://docs.aws.amazon.com/cloud9/latest/user-guide/troubleshooting.html#troubleshooting-env-loading).
+Deben deshabilitarse los Ad blockers, javascript disablers y tracking blockers para el dominio de Cloud9 ya que la conexión al workspace podría verse impactada.
+Cloud9 requiere cookies de terceros. Puedes colocar en whitelist los [dominios específicos]( https://docs.aws.amazon.com/cloud9/latest/user-guide/troubleshooting.html#troubleshooting-env-loading).
 {{% /notice %}}
 
-### Launch Cloud9 in your closest region:
+### Lanzar Cloud9 en la región más cercana: -> Revisar
 {{< tabs name="Region" >}}
 {{{< tab name="Oregon" include="us-west-2.md" />}}
 {{{< tab name="Ireland" include="eu-west-1.md" />}}
@@ -32,15 +29,14 @@ Cloud9 requires third-party-cookies. You can whitelist the [specific domains]( h
 {{{< tab name="Singapore" include="ap-southeast-1.md" />}}
 {{< /tabs >}}
 
-- Select **Create environment**
-- Name it **eksworkshop**, click Next.
-- Choose **"t3.small"** for instance type, take all default values and click **Create environment**
-- When it comes up, customize the environment by closing the **welcome tab**
-and **lower work area**, and opening a new **terminal** tab in the main work area:
+- Seleccionar **Create environment**
+- Nombrarlo **eksworkshop**, click en Next.
+- Elegir el tipo de instancia **"t3.small"**, tomar todos los valores por defecto y hacer click en **Create environment**
+- Cuando inicialice, cerrar la **tab de bienvenida (1)** y 
+ el **area de trabajo inferior (2)**. Por último, abrir una nueva **terminal (3)** en el área de trabajo principal:
 ![c9before](/images/c9before.png)
 
-- Your workspace should now look like this:
+- Tu workspace debería verse ahora de la siguiente manera:
 ![c9after](/images/c9after.png)
 
-- If you like this theme, you can choose it yourself by selecting **View / Themes / Solarized / Solarized Dark**
-in the Cloud9 workspace menu.
+

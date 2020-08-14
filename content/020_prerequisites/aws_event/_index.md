@@ -1,16 +1,15 @@
 ---
-title: "...at an AWS event"
+title: "...en un evento de AWS"
 chapter: true
 weight: 12
 ---
 
-### Running the workshop at an AWS Event
+### Ejecutando el workshop en un evento de AWS
 
 {{% notice warning %}}
-Only complete this section if you are at an AWS hosted event (such as re:Invent,
-Kubecon, Immersion Day, or any other event hosted by an AWS employee). If you are running the workshop on your own, go to:
+Completar esta sección únicamente si estás en un evento llevado a cabo por AWS (tales como re:Invent, Immersion Day, o cualquier otro evento llevado a cabo por un empleado de AWS). Si estás ejecutando el workshop por tu cuenta, ir a:
 
-[Start the workshop on your own](../self_paced/).
+[Iniciar el workshop por tu cuenta](../self_paced/).
 {{% /notice %}}
 
 {{% children %}}
