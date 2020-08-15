@@ -1,13 +1,9 @@
 ---
-title: "Iniciar el workshop..."
-pre: "<b>   </b>"
+title: "Iniciar el workshop"
 chapter: true
 weight: 20
-pre: '<i class="fa fa-film" aria-hidden="true"></i> '
 tags:
   - beginner
-  - kubeflow
-  - appmesh
   - CON203
   - CON205
   - CON206
