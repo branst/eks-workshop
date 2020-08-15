@@ -1,5 +1,5 @@
 ---
-title: "Flujo de creación de un cluster EKS"
+title: "Flujo de creación de un Cluster"
 date: 2018-10-03T10:23:24-07:00
 draft: false
 weight: 130
