@@ -1,5 +1,5 @@
 ---
-title: "Architectural Overview"
+title: "Arquitectura General"
 date: 2018-10-03T10:18:20-07:00
 draft: false
 weight: 90
@@ -9,21 +9,21 @@ weight: 90
 graph TB
 internet((internet))
 kubectl{kubectl}
-  subgraph ControlPlane
+  subgraph Control Plane
     api(API Server)
     controller(Controller Manager)
     scheduler(Scheduler)
     etcd(etcd)
   end
-    subgraph worker1
+    subgraph Nodo Worker
       kubelet1(kubelet)
       kube-proxy1(kube-proxy)
       subgraph docker1
         subgraph podA
-          containerA[container]
+          containerA[contenedor]
         end
         subgraph podB
-          containerB[container]
+          containerB[contenedor]
         end
       end
     end

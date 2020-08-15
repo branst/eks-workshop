@@ -8,7 +8,7 @@ weight: 100
 {{<mermaid>}}
 graph TB
 kubectl{kubectl}
-  subgraph ControlPlane
+  subgraph Control Plane
     api(API Server)
     controller(Controller Manager)
     scheduler(Scheduler)
@@ -29,12 +29,12 @@ kubectl{kubectl}
   class kubectl orange;
 {{< /mermaid >}}
 
-* One or More API Servers: Entry point for REST / kubectl
+* Uno o más API Servers: punto de entra para API REST / kubectl
 
-* etcd: Distributed key/value store
+* etcd: Almacenamiento clave/valor distribuido
 
-* Controller-manager: Always evaluating current vs desired state
+* Controller-manager: Evaluador constante de estados: actual vs deseado
 
-* Scheduler: Schedules pods to worker nodes
+* Scheduler: Asigna pods a worker nodes
 
-Check out [the official Kubernetes documentation](https://kubernetes.io/docs/concepts/overview/components/#master-components) for a more in-depth explanation of control plane components.
+Revisa [la documentación oficial de Kubernetes](https://kubernetes.io/docs/concepts/overview/components/#master-components) para una revisión en profundidad del control plane y sus componentes.

@@ -8,15 +8,15 @@ weight: 110
 {{<mermaid>}}
 graph TB
 internet((internet))
-    subgraph worker1
+    subgraph Nodo Worker
       kubelet1(kubelet)
       kube-proxy1(kube-proxy)
       subgraph docker1
         subgraph podA
-          containerA[container]
+          containerA[contenedor]
         end
         subgraph podB
-          containerB[container]
+          containerB[contenedor]
         end
       end
     end
@@ -36,10 +36,10 @@ internet((internet))
   class kubectl orange;
 {{< /mermaid >}}
 
-* Made up of worker nodes
+* Compuesto de worker nodes
 
-* kubelet: Acts as a conduit between the API server and the node
+* kubelet: actua como el canal de comunicación entre el API Server y el nodo
 
-* kube-proxy: Manages IP translation and routing
+* kube-proxy: Maneja traducciones y mapeos de IP y el routeo
 
-Check out [the official Kubernetes documentation](https://kubernetes.io/docs/concepts/overview/components/#node-components) for a more in-depth explanation of data plane components.
+Revisa [la documentación oficial de Kubernetes](https://kubernetes.io/docs/concepts/overview/components/#node-components) para una revisión en profundidad del data plane y sus componentes.

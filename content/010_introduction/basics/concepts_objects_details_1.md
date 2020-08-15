@@ -1,16 +1,16 @@
 ---
-title: "K8s Objects Detail (1/2)"
+title: "K8s Recursos (1/2)"
 date: 2018-10-03T10:15:55-07:00
 draft: false
 weight: 60
 ---
 
 ### [Pod](https://kubernetes.io/docs/concepts/workloads/pods/pod/)
-* A thin wrapper around one or more containers
+* Un envoltorio lógico de uno o más contenedores
 
 ### [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/)
 
-* Implements a single instance of a pod on a worker node
+* Despliega una sola instancia de un pod en un nodo
 
 ### [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
-* Details how to roll out (or roll back) across versions of your application
+* Especifica como desplegar o retroceder un despliegue de las distintas versiones de una aplicación.

@@ -5,7 +5,7 @@ draft: false
 weight: 90
 ---
 
-In this section, we'll cover the following topics:
+En esta sección cubriremos los siguientes tópicos:
 
 {{% children showhidden="false" %}}
 
